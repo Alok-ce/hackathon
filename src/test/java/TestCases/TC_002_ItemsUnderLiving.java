@@ -10,7 +10,7 @@ import Utilities.TakeScreenshot;
 
 public class TC_002_ItemsUnderLiving extends TC_001_FindDetailsOfBookShelves {
 
-	@Test(priority=3)
+	@Test(priority=3,groups = {"Master","Sanity","Regression"})
 public void Items() throws InterruptedException{
 	
 	logger.info("***** Starting TC_002_ItemsUnderLivingTest *****");	

@@ -18,7 +18,7 @@ public class TC_003_GiftCards extends TC_002_ItemsUnderLiving{
 
 	//ThirdPage TP= new ThirdPage(driver);
 	
-	@Test(priority=4 ,dataProvider = "giftData")
+	@Test(priority=4 ,dataProvider = "giftData",groups = {"Master","Sanity","Regression"})
 	public void ClickGiftCards(String giftAmount,String recipientName,String recipientEmail, String recipientMobile , 
 			String name, String corrcetEmail,String mobile, String address,String pinCode,String city , String incorrcetEmail ) throws InterruptedException {
 	logger.info("***** Starting TC_003_GiftCardsTest *****");
@@ -51,7 +51,7 @@ public class TC_003_GiftCards extends TC_002_ItemsUnderLiving{
 	}
    
 	
-    @Test(priority=6)
+    @Test(priority=6, groups = {"Master","Sanity","Regression"})
    	public void GetErrorMsg() throws InterruptedException {
     	ThirdPage TP= new ThirdPage(driver);
     	Thread.sleep(5000);
@@ -67,7 +67,7 @@ public class TC_003_GiftCards extends TC_002_ItemsUnderLiving{
    	}
     
     
-    @Test(priority=7,dataProvider = "giftData")
+    @Test(priority=7,dataProvider = "giftData", groups = {"Master","Sanity","Regression"})
 	public void ValidateDetails(String giftAmount,String RecipientName,String RecipientEmail, String recipientMobile , 
 			String name, String correctEmail,String mobile, String address,String pinCode,String city,String incorrcetEmail) throws InterruptedException {
     ThirdPage TP= new ThirdPage(driver);

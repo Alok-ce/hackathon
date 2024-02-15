@@ -23,7 +23,7 @@ public class BaseClass {
 	public Logger logger;
 	public Properties p;
 
-	@BeforeTest
+	@BeforeTest(groups = {"Master","Sanity","Regression"})
 	@Parameters({"os" , "browser"})
 	public void setUp(String os , String br) throws IOException {
 		
@@ -78,7 +78,7 @@ public class BaseClass {
 		driver.get(p.getProperty("PageURL"));
 	}
 	
-	@AfterTest
+	@AfterTest(groups = {"Master","Sanity","Regression"})
 	public void tearDown() {
 		driver.quit();
 	}

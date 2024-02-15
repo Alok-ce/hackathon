@@ -96,10 +96,10 @@ public class HomePage extends BasePage {
 		
 		act.moveToElement(PriceIcon).build().perform();
 		Thread.sleep(3000);
-		act.moveToElement(UnderPrice).dragAndDropBy(UnderPrice, -215, 0).perform();
+		act.moveToElement(UnderPrice).dragAndDropBy(UnderPrice, -211, 0).perform();
 		
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("arguments[0].setAttribute['style','left: 32.1767%;']",UnderPrice);
+		//JavascriptExecutor js = (JavascriptExecutor)driver;
+		//js.executeScript("arguments[0].setAttribute['style','left: 32.1767%;']",UnderPrice);
 		
 	
 	}

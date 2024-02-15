@@ -15,7 +15,7 @@ import Utilities.TakeScreenshot;
 
 public class TC_001_FindDetailsOfBookShelves extends BaseClass {
 
-	@Test(priority=1)
+	@Test(priority=1, groups = {"Master","Sanity","Regression"})
 	public void searchbookshelves() throws InterruptedException, IOException {
 		
 		logger.info("***** Starting TC_001_FindDetailsOfBookShelvesTest *****");

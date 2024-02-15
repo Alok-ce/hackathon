@@ -2,12 +2,33 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T15:27:21 IST" name="Suite" finished-at="2024-02-08T15:30:26 IST" duration-ms="184893">
+  <suite started-at="2024-02-15T12:23:42 IST" name="Suite" finished-at="2024-02-15T12:26:16 IST" duration-ms="153734">
     <groups>
+      <group name="Master">
+        <method signature="TC_001_FindDetailsOfBookShelves.searchbookshelves()[pri:1, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="searchbookshelves" class="TestCases.TC_001_FindDetailsOfBookShelves"/>
+        <method signature="TC_002_ItemsUnderLiving.Items()[pri:3, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="Items" class="TestCases.TC_002_ItemsUnderLiving"/>
+        <method signature="TC_003_GiftCards.ClickGiftCards(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="ClickGiftCards" class="TestCases.TC_003_GiftCards"/>
+        <method signature="TC_003_GiftCards.GetErrorMsg()[pri:6, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="GetErrorMsg" class="TestCases.TC_003_GiftCards"/>
+        <method signature="TC_003_GiftCards.ValidateDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="ValidateDetails" class="TestCases.TC_003_GiftCards"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_001_FindDetailsOfBookShelves.searchbookshelves()[pri:1, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="searchbookshelves" class="TestCases.TC_001_FindDetailsOfBookShelves"/>
+        <method signature="TC_002_ItemsUnderLiving.Items()[pri:3, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="Items" class="TestCases.TC_002_ItemsUnderLiving"/>
+        <method signature="TC_003_GiftCards.ClickGiftCards(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="ClickGiftCards" class="TestCases.TC_003_GiftCards"/>
+        <method signature="TC_003_GiftCards.GetErrorMsg()[pri:6, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="GetErrorMsg" class="TestCases.TC_003_GiftCards"/>
+        <method signature="TC_003_GiftCards.ValidateDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="ValidateDetails" class="TestCases.TC_003_GiftCards"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_FindDetailsOfBookShelves.searchbookshelves()[pri:1, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="searchbookshelves" class="TestCases.TC_001_FindDetailsOfBookShelves"/>
+        <method signature="TC_002_ItemsUnderLiving.Items()[pri:3, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="Items" class="TestCases.TC_002_ItemsUnderLiving"/>
+        <method signature="TC_003_GiftCards.ClickGiftCards(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="ClickGiftCards" class="TestCases.TC_003_GiftCards"/>
+        <method signature="TC_003_GiftCards.GetErrorMsg()[pri:6, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="GetErrorMsg" class="TestCases.TC_003_GiftCards"/>
+        <method signature="TC_003_GiftCards.ValidateDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:TestCases.TC_003_GiftCards@6fa51cd4]" name="ValidateDetails" class="TestCases.TC_003_GiftCards"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-02-08T15:27:21 IST" name="Test1" finished-at="2024-02-08T15:30:26 IST" duration-ms="184893">
+    <test started-at="2024-02-15T12:23:42 IST" name="Test" finished-at="2024-02-15T12:26:16 IST" duration-ms="153734">
       <class name="TestCases.TC_003_GiftCards">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003_GiftCards@6caf0677]" started-at="2024-02-08T15:27:22 IST" name="setUp" finished-at="2024-02-08T15:28:06 IST" duration-ms="43488" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003_GiftCards@6fa51cd4]" started-at="2024-02-15T12:23:42 IST" name="setUp" finished-at="2024-02-15T12:23:57 IST" duration-ms="15133" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +44,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchbookshelves()[pri:1, instance:TestCases.TC_003_GiftCards@6caf0677]" started-at="2024-02-08T15:28:06 IST" name="searchbookshelves" finished-at="2024-02-08T15:28:50 IST" duration-ms="44318" status="PASS">
+        <test-method signature="searchbookshelves()[pri:1, instance:TestCases.TC_003_GiftCards@6fa51cd4]" started-at="2024-02-15T12:23:57 IST" name="searchbookshelves" finished-at="2024-02-15T12:24:42 IST" duration-ms="44377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchbookshelves -->
-        <test-method signature="Items()[pri:3, instance:TestCases.TC_003_GiftCards@6caf0677]" started-at="2024-02-08T15:28:50 IST" name="Items" finished-at="2024-02-08T15:29:07 IST" duration-ms="16100" status="PASS">
+        <test-method signature="Items()[pri:3, instance:TestCases.TC_003_GiftCards@6fa51cd4]" started-at="2024-02-15T12:24:42 IST" name="Items" finished-at="2024-02-15T12:24:57 IST" duration-ms="15785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Items -->
-        <test-method signature="ClickGiftCards(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.TC_003_GiftCards@6caf0677]" started-at="2024-02-08T15:29:09 IST" name="ClickGiftCards" data-provider="giftData" finished-at="2024-02-08T15:29:49 IST" duration-ms="40043" status="PASS">
+        <test-method signature="ClickGiftCards(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCases.TC_003_GiftCards@6fa51cd4]" started-at="2024-02-15T12:25:00 IST" name="ClickGiftCards" data-provider="giftData" finished-at="2024-02-15T12:25:40 IST" duration-ms="39906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -92,11 +113,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickGiftCards -->
-        <test-method signature="GetErrorMsg()[pri:6, instance:TestCases.TC_003_GiftCards@6caf0677]" started-at="2024-02-08T15:29:49 IST" name="GetErrorMsg" finished-at="2024-02-08T15:30:03 IST" duration-ms="13214" status="PASS">
+        <test-method signature="GetErrorMsg()[pri:6, instance:TestCases.TC_003_GiftCards@6fa51cd4]" started-at="2024-02-15T12:25:40 IST" name="GetErrorMsg" finished-at="2024-02-15T12:25:53 IST" duration-ms="13198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetErrorMsg -->
-        <test-method signature="ValidateDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:TestCases.TC_003_GiftCards@6caf0677]" started-at="2024-02-08T15:30:04 IST" name="ValidateDetails" data-provider="giftData" finished-at="2024-02-08T15:30:24 IST" duration-ms="20182" status="PASS">
+        <test-method signature="ValidateDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:TestCases.TC_003_GiftCards@6fa51cd4]" started-at="2024-02-15T12:25:54 IST" name="ValidateDetails" data-provider="giftData" finished-at="2024-02-15T12:26:14 IST" duration-ms="20566" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,11 +178,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_GiftCards@6caf0677]" started-at="2024-02-08T15:30:25 IST" name="tearDown" finished-at="2024-02-08T15:30:26 IST" duration-ms="1358" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_GiftCards@6fa51cd4]" started-at="2024-02-15T12:26:14 IST" name="tearDown" finished-at="2024-02-15T12:26:16 IST" duration-ms="1384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.TC_003_GiftCards -->
-    </test> <!-- Test1 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
